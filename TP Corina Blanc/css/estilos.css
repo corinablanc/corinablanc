@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: rgb(246, 250, 250);
+    font-family: "DM Sans", sans-serif;
+    margin: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: #17a60d;
+    font-weight: 900;
+    font-family: "Arimo", sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    color: #46c43d;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-decoration: underline
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 100;
+    font-family: "Arimo", sans-serif;
+    text-decoration: underline
+}
+
+h3 {
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Arimo", sans-serif;
+}
+
+p {
+    text-align: justify;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px
+
+}
+
+#miColor {
+    color: rgb(255, 255, 255);
+    background-color: #17a60d
+}
+
+#miSubrayado {
+    text-decoration: #17a60d underline;
+}
+
+
+a {
+    font-family: Arimo;
+    font-weight: 500;
+    color: #17a60d;
+    font-size: 20px;
+    display: flex;
+}
+
+a:hover {
+    text-decoration: wavy;
+    color: black
+}
+
+a:active {
+    color: red;
+}
+
+li {
+    color: black
+}
+
+img {
+    width: 20%;
+    margin: auto;
+    border-radius: 10%;
+    display: block;
+}
